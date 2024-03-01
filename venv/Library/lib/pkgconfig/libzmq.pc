@@ -1,0 +1,12 @@
+prefix=c:/Swaminarayan/venv/Library
+exec_prefix=c:/Swaminarayan/venv/Library
+libdir=c:/Swaminarayan/venv/Library/lib
+includedir=c:/Swaminarayan/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
